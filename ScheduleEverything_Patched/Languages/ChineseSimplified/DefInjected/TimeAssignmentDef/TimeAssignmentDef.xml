@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: art -->
+  <Mazo_Art.label>艺术</Mazo_Art.label>
+  
+  <!-- EN: clean -->
+  <Mazo_Clean.label>清洁</Mazo_Clean.label>
+  
+  <!-- EN: construct -->
+  <Mazo_Construct.label>建造</Mazo_Construct.label>
+  
+  <!-- EN: cook -->
+  <Mazo_Cook.label>烹饪</Mazo_Cook.label>
+  
+  <!-- EN: craft -->
+  <Mazo_Craft.label>制作</Mazo_Craft.label>
+  
+  <!-- EN: grow -->
+  <Mazo_Grow.label>种植</Mazo_Grow.label>
+  
+  <!-- EN: handle -->
+  <Mazo_Handle.label>基本</Mazo_Handle.label>
+  
+  <!-- EN: haul -->
+  <Mazo_Haul.label>搬运</Mazo_Haul.label>
+  
+  <!-- EN: hunt -->
+  <Mazo_Hunt.label>狩猎</Mazo_Hunt.label>
+  
+  <!-- EN: mine -->
+  <Mazo_Mine.label>采矿</Mazo_Mine.label>
+  
+  <!-- EN: plantcut -->
+  <Mazo_PlantCut.label>割除</Mazo_PlantCut.label>
+  
+  <!-- EN: research -->
+  <Mazo_Research.label>研究</Mazo_Research.label>
+  
+  <!-- EN: smith -->
+  <Mazo_Smith.label>锻造</Mazo_Smith.label>
+  
+  <!-- EN: tailor -->
+  <Mazo_Tailor.label>缝制</Mazo_Tailor.label>
+  
+</LanguageData>

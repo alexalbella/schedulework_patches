@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBC28E35-6BC2-448F-85CC-717F388EF5D9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Test</RootNamespace>
+    <AssemblyName>Test</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MazoCleaningMod\Patch_JobGiver_GetRest_GetPriority.cs" />
+    <Compile Include="MazoCleaningMod\Patch_JobGiver_Work_GetPriority.cs" />
+    <Compile Include="MazoCleaningMod\Patch_ThinkNode_Priority_GetJoy_GetPriority.cs" />
+    <Compile Include="MazoScheduleMod\GameComponent_MazoSchedule.cs" />
+    <Compile Include="MazoScheduleMod\MazoScheduleMod.cs" />
+    <Compile Include="MazoScheduleMod\MazoScheduleModInit.cs" />
+    <Compile Include="MazoScheduleMod\MazoScheduleModSettings.cs" />
+    <Compile Include="MazoScheduleMod\Patch_Pawn_TimetableTracker_ExposeData.cs" />
+    <Compile Include="MazoScheduleMod\TimeAssignmentDefOf_Mazo.cs" />
+    <Compile Include="MazoScheduleMod\TimeAssignmentSelectorPatch.cs" />
+    <Compile Include="MazoScheduleMod\TimetableFixPatch.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

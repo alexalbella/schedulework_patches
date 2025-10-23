@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<TimeAssignmentDef>
+    <defName>Mazo_Firefight</defName>
+    <label>firefight</label>
+    <color>(25, 20, 10)</color>
+</TimeAssignmentDef>
+
+<TimeAssignmentDef>
+    <defName>Mazo_Patient</defName>
+    <label>patient</label>
+    <color>(40, 30, 14)</color>
+</TimeAssignmentDef>
+
+<TimeAssignmentDef>
+    <defName>Mazo_Doctor</defName>
+    <label>doctor</label>
+    <color>(74, 55, 20)</color>
+</TimeAssignmentDef>
+
+<TimeAssignmentDef>
+    <defName>Mazo_Bedrest</defName>
+    <label>bedrest</label>
+    <color>(110, 81, 24)</color>
+</TimeAssignmentDef>
+
+<TimeAssignmentDef>
+    <defName>Mazo_Childcare</defName>
+    <label>childcare</label>
+    <color>(150, 109, 26)</color>
+</TimeAssignmentDef>
+
+<TimeAssignmentDef>
+    <defName>Mazo_Basic</defName>
+    <label>basic</label>
+    <color>(191, 138, 27)</color>
+</TimeAssignmentDef>
+
+<TimeAssignmentDef>
+    <defName>Mazo_Warden</defName>
+    <label>warden</label>
+    <color>(2233, 168, 25)</color>
+</TimeAssignmentDef>
+
+<TimeAssignmentDef>
+    <defName>Mazo_Handle</defName>
+    <label>handle</label>
+    <color>(210, 80, 50)</color>
+  </TimeAssignmentDef>
+
+  <TimeAssignmentDef>
+    <defName>Mazo_Cook</defName>
+    <label>cook</label>
+    <color>(210, 140, 90)</color>
+  </TimeAssignmentDef>
+
+  <TimeAssignmentDef>
+    <defName>Mazo_Hunt</defName>
+    <label>hunt</label>
+    <color>(140, 210, 50)</color>
+  </TimeAssignmentDef>
+
+  <TimeAssignmentDef>
+    <defName>Mazo_Construct</defName>
+    <label>construct</label>
+    <color>(50, 210, 70)</color> 
+  </TimeAssignmentDef>
+
+  <TimeAssignmentDef>
+    <defName>Mazo_Grow</defName>
+    <label>grow</label>
+    <color>(50, 170, 140)</color> 
+  </TimeAssignmentDef>
+
+  <TimeAssignmentDef>
+    <defName>Mazo_Mine</defName>
+    <label>mine</label>
+    <color>(70, 120, 210)</color> 
+  </TimeAssignmentDef>
+
+  <TimeAssignmentDef>
+    <defName>Mazo_PlantCut</defName>
+    <label>plantcut</label>
+    <color>(50, 80, 210)</color> 
+  </TimeAssignmentDef>
+
+  <TimeAssignmentDef>
+    <defName>Mazo_Smith</defName>
+    <label>smith</label>
+    <color>(110, 50, 210)</color>
+  </TimeAssignmentDef>
+
+  <TimeAssignmentDef>
+    <defName>Mazo_Tailor</defName>
+    <label>tailor</label>
+    <color>(160, 50, 210)</color>
+  </TimeAssignmentDef>
+
+  <TimeAssignmentDef>
+    <defName>Mazo_Art</defName>
+    <label>art</label>
+    <color>(210, 50, 140)</color>
+  </TimeAssignmentDef>
+
+  <TimeAssignmentDef>
+    <defName>Mazo_Craft</defName>
+    <label>craft</label>
+    <color>(210, 50, 90)</color>
+  </TimeAssignmentDef>
+
+  <TimeAssignmentDef>
+    <defName>Mazo_Haul</defName>
+    <label>haul</label>
+    <color>(210, 80, 110)</color>
+  </TimeAssignmentDef>
+  <TimeAssignmentDef>
+    <defName>Mazo_Clean</defName>
+    <label>clean</label>
+    <color>(140, 50, 90)</color>
+  </TimeAssignmentDef>
+  <TimeAssignmentDef>
+    <defName>Mazo_Research</defName>
+    <label>research</label>
+    <color>(90, 40, 120)</color>
+  </TimeAssignmentDef>
+
+<!-- Legacy -->
+
+  
+</Defs>
+
+
+

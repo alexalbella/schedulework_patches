@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+  <packageId>ScheduleEverything.ComplexJobs.Patch</packageId>
+  <name>Schedule Everything! - Complex Jobs Bridge</name>
+  <author>ScheduleWork Contributors</author>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>
+    Extends Schedule Everything! with the granular work types introduced by [FSF] Complex Jobs. When both mods are active,
+    pawns can receive timetable assignments for the Complex Jobs work types alongside the vanilla ones.
+  </description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+    </li>
+    <li>
+      <packageId>Mazo.Schedules</packageId>
+      <displayName>Schedule Everything!</displayName>
+    </li>
+    <li>
+      <packageId>FrozenSnowFox.ComplexJobs</packageId>
+      <displayName>[FSF] Complex Jobs</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Mazo.Schedules</li>
+    <li>FrozenSnowFox.ComplexJobs</li>
+  </loadAfter>
+</ModMetaData>
